@@ -1,0 +1,132 @@
+@media (max-width:1530px){
+    .fixed-with {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+.header{
+    background-color: #3498db;
+    padding: 10px 0; 
+}
+
+.blog-left-notification ul li {
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 5px;
+    font-size: 5px;
+    margin-bottom: 20px;
+    border-radius: 1px;
+    display: block;
+  }
+}
+@media(max-width:1244px){
+    .header-right ul li a {
+        font-size: 26px;
+        padding: 0 20px;
+        line-height: 70px;
+        border-right: 1px solid rgb(248, 247, 247);
+        transition: .2s;
+        text-shadow: 1px 2px rgb(209, 66, 66);
+      }
+}
+
+
+
+@media (max-width:1024px){
+.header-right {
+    width: 100%;
+    text-align: center;
+}
+
+.fixed-with {
+text-align: center;
+}
+
+.header-left{
+    width: 100%;
+    text-align: center;
+}
+.header-right ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+    font-size: 20px;
+    padding: 0 25px;
+    line-height: 20px;
+    border-right: 2px solid rgb(248, 247, 247);
+    transition: .2s;
+    text-shadow: 1px 2px rgb(209, 66, 66);
+}
+}
+
+@media (max-width:768px){
+    .header-right ul li a{
+        padding: 0 15px;
+        font-size: 20px;
+        border-right: none;    
+    }
+    .header-left img {
+        text-align: center;
+    }
+    .banner-caption h1 {
+        font-size: 20px;
+    }
+
+    .banner-caption h2 {
+        font-size: 20px;
+        max-width: 268px;
+
+        margin-top: 20px;
+      }
+      .blog-left-content p{
+        font-size: 10px;
+      }
+    }
+
+      @media (max-width:668px){
+      .footer-left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+}
+
+.service-item h3 {
+    font-size: 15px;
+  }
+
+  .service-item p {
+    font-size: 8px;
+  }
+      }
+.about h1 {
+    font-size: 30px;
+}
+
+.footer-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .socal-menu {
+    text-align: center;
+  }
+
+  .header-left img {
+    width: 120px;
+    height: auto;
+  }
+  .banner{
+    padding: 150px 0;
+        }
+}
+
+@media (max-width:576px) {
+    .banner{
+padding: 120px 0;
+    }
+
+
+}
+
